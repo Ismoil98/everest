@@ -1,0 +1,437 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* head start */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+
+.header{
+  background-color:black;
+}
+
+.header-series{
+  justify-content: space-between;
+  margin-bottom: 22px;
+  display: flex;
+  padding-top: 12px;
+  padding-left: 22px;
+  padding-right: 33px;
+}
+
+.header-left{
+  
+}
+
+.header-image{
+  width: 114px;
+  height: 85px;
+}
+
+.header-right{
+  background-color: black;
+}
+
+.header-list{
+  list-style: none;
+  display: flex;
+}
+
+.header-active{
+  margin-bottom: 33px;
+  text-decoration: underline;
+  margin-right: 33px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.header-passive{
+  margin-bottom: 33px;
+  text-decoration: none;
+  margin-right: 33px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.hiro{
+  margin-top: 274px;
+  margin-bottom: 84px;
+  text-align: left;
+}
+
+.hiro-sarlavha_1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.hiro-text_1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  width: 403px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+
+.button_1{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+  line-height: 21px;
+	color: #fff;
+	border-radius: 40px;
+	background-color: #458FF6; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+
+}
+
+.next{
+  margin-top: 297px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+
+/* header end */
+
+
+
+/* info section start */
+
+.info{ 
+  margin-top: 88px;
+  margin-bottom: 161px;
+  background-color: white;
+}
+
+.info-sciences{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.sciense{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sciences-card{
+  text-align: center;
+  width: 512px;
+  background: #F5F5F5;;
+  border-radius: 15px;
+  padding-bottom: 91px;
+  margin-bottom: 67px;
+  box-shadow: 10px 10px 20px #C5C5C5;
+  transition: color 3s ease;
+}
+
+.sciences-card:hover{
+  box-shadow: none;
+  background: #EAEAEA;
+  cursor: progress;
+}
+
+.info-image{
+  margin-top: 38px;
+  width: 297px;
+  height: 297px;
+  padding-bottom: 40px;
+}
+
+.info-name{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  padding-bottom: 26px;
+  }
+
+  .info-text{
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+  }
+
+/* info section end */
+
+
+
+/* bizning ustozlar start */
+
+.teachers{
+  margin-top: 161px;
+}
+
+.teachers-sciences{
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+color: #000000;
+text-align: center;
+margin-bottom: 53px;
+}
+
+.teachers-cards{
+  display: flex;
+  /* flex-wrap: wrap; */
+  list-style: none;
+}
+
+.teachers-avatar{
+  width: 236px;
+  margin-left: 39px;
+}
+
+.teachers-image{
+  width: 236px;
+  height: 236px;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+.teachers-image:hover{
+  border-radius: 50%;
+  /* width: 216px;
+  height: 216px; */
+  box-shadow: 10px 10px 20px #853b3b;
+  transform: scale(0.8);
+  /* width: 200px; */
+  /* height: 200px; */
+}
+
+.teachers-name{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+text-align: center;
+margin-bottom: 10px;
+}
+
+  .teachers-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 110px;
+}
+
+/* bizning ustozlar end */
+
+/* addres strat */
+
+.address{
+  margin-bottom: 110px;
+}
+
+
+
+.button_2 {
+	
+}
+
+.address-images{
+  width: 1140px;
+  height: 620px;
+}
+
+/* addres end */
+
+
+
+/* aloqa start */
+
+.aloqa{
+width: 730px;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+margin-left: auto;
+margin-right: auto;
+color: #000000;
+margin-bottom: 50px;
+text-align: center;
+}
+
+/* aloqa end */
+
+
+
+/* tel start */
+
+.tel{
+  width: 444px;
+  text-align: center;
+  background: #F1F1F1;
+  border-radius: 15px;
+  margin-bottom: 147px;
+  padding: 15px;
+  transition: color 0.3 ease;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.tel:hover{
+  box-shadow: -6px -6px 10px #FFFFFF, 6px 6px 10px #CACACA;
+  background: #776f6f;
+}
+
+.tel .tel-images{
+margin-right: auto;
+margin-left: auto;  
+width: 40px;
+height: 40px;
+}
+
+.tel-raqam{
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+color: black;
+text-decoration: none;
+transition: color 0.3 ease;
+}
+
+.tel-raqam:hover{
+color: #FFB800;
+}
+
+/* tel end */
+
+
+
+/* About start */
+
+.about{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.about-block_1{
+  width: 400px;
+}
+
+.about-image{
+  padding-bottom: 17px;
+  width: 148px;
+  height: 110px;
+}
+
+.about-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.about-info{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #C7C7C7;
+}
+
+.about-block_2_3{
+  padding-top: 93px;
+  display: flex;
+}
+
+.about-sections{
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+margin-bottom: 26px;
+}
+
+.about-lists1{
+  list-style: none;
+  padding-left: 70px;
+}
+
+.about-links{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.about-links:hover{
+  color: #FFB800;
+}
+
+.tel-raqam1{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.tel-raqam1:hover{
+  color: #FFB800;
+}
+
+.tel-images1{
+width: 14px;
+height: 14px;
+}
+
+/* About end */
